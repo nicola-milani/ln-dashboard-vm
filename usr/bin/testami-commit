@@ -1,0 +1,10 @@
+#!/bin/bash
+timestamp=$(date +%s)
+#zfs snapshot z-windows/vms/dsk_0002_0@${timestamp}
+echo $timestamp >> /tmp/log_commit
+echo $timestamp
+
+
+
+
+
